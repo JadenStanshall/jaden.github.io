@@ -1,15 +1,6 @@
 function determineGiscusTheme() {
   
-    let theme =
-      localStorage.getItem("theme") ||
-      document.documentElement.getAttribute("data-theme") ||
-      "system";
-
-    if (theme === "dark") return "dark";
-    if (theme === "light") return "light";
-
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    return prefersDark ? "dark" : "light";
+    return "light";
   
 }
 
@@ -18,7 +9,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "JadenStanshall/my_portfolio",
+    "data-repo": "JadenStanshall/jaden.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
