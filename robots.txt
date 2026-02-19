@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jadenstanshall.github.io/jadenstanshall.github.io/sitemap.xml
+Sitemap: https://jadenstanshall.github.io/sitemap.xml
