@@ -108,3 +108,24 @@ nav_order: 4
         {% include figure.liquid loading="eager" path="assets/gif/landing_drone.gif" title="Hardware" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<!-- AU -->
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/gif/rerouting_crazy.gif" title="Robotics" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/gif/barrel_weave.gif" title="Hardware" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    description for autoronto stuff
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/gif/au.gif" title="Hardware" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
